@@ -11,20 +11,20 @@ import Work from './Work'
 const Pages=({user})=>{
     return (<Router>
 <Switch>
-<Route exact path="/">
+<Route exact path="/portfolio/">
 <Me user={user}/>
 </Route>
 
 
-<Route exact path="/projects">
+<Route exact path="/portfolio/projects">
 <Projects user={user}/>
 </Route>
 
-<Route exact path="/education">
+<Route exact path="/portfolio/education">
 <Education user={user}/>
 </Route>
 
-<Route exact path="/work">
+<Route exact path="/portfolio/work">
 <Work user={user}/>
 </Route>
 
