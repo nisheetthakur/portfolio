@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nisheetthakur.github.io/portfolio",
+  "homepage": "https://nisheetthakur.github.io/portfolio",
   "dependencies": {
     "@carbon/colors": "^10.20.0",
     "@carbon/icons-react": "^10.25.0",
