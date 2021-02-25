@@ -11,7 +11,7 @@ import Work from './Work'
 const Pages=({user})=>{
     return (<Router>
 <Switch>
-<Route exact path="/portfolio/">
+<Route exact path="/portfolio">
 <Me user={user}/>
 </Route>
 
